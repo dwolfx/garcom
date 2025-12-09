@@ -7,3 +7,4 @@
 - Created routine workflow for automated updates.
 - Added Staff Monitoring features to documentation.
 - **Added Kitchen Display System (KDS)** to B2B App.
+- **Enhanced B2C UX**: Dynamic Home button (Smart Actions) and Detailed History Receipts.
