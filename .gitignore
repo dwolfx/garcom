@@ -1,0 +1,16 @@
+# Directories containing separate git repositories
+admin-app/
+b2b-app/
+b2c-app/
+waiter-app/
+api-server/
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Agent files
+.agent/
