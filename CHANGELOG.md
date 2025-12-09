@@ -6,3 +6,4 @@
 - Initialized Git in root directory.
 - Created routine workflow for automated updates.
 - Added Staff Monitoring features to documentation.
+- **Added Kitchen Display System (KDS)** to B2B App.

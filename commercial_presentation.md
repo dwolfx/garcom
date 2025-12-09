@@ -48,6 +48,9 @@ Painel de controle focado em desktop/tablet para o caixa ou gerente.
 5.  **Monitoramento de Staff**:
     *   **Staff Online**: Widget para ver quem está trabalhando no momento.
     *   **Contato Rápido**: Atalhos para ligar ou chamar no WhatsApp.
+6.  **KDS (Tela de Cozinha)**:
+    *   **Gestão de Pedidos**: Quadro Kanban (A Fazer / Preparando / Pronto).
+    *   **Conexão Realtime**: Cozinha recebe o pedido no segundo que o cliente confirma.
 
 ---
 
