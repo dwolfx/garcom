@@ -21,7 +21,8 @@ Interface projetada para ambientes noturnos:
     *   **Divisão Automatizada**: O app calcula sua parte do vinho ou balde.
 3.  **Pagamento & Saída**:
     *   Paga via PIX/Cartão pelo app.
-    *   **Taxa Flexível**: Escolha entre 8%, 10% ou 13% (ou justifique a remoção).
+    *   **Taxa Flexível**: Escolha entre 8%, 10% ou 13% de serviço (calculada automaticamente).
+    *   **Taxa App**: R$ 1,99 fixo por pessoa (modelo Checkout).
     *   Liberação automática na portaria.
 4.  **Perfil & Histórico**:
     *   Gerenciamento de dados (LGPD) e histórico de noites anteriores.
@@ -81,7 +82,7 @@ Painel com **Dupla Visão** (Role-Based Access Control):
 #### 🅰️ Visão Super Admin (Você/Dono da Plataforma)
 1.  **Dashboard Global**: Faturamento somado de TODAS as franquias.
 2.  **Gestão de Tenants**: Cadastre e suspenda estabelecimentos com 1 clique.
-3.  **Configurações Globais**: Defina a taxa da plataforma (1.99% ou R$ 2,00) e chave Pix recebedora.
+3.  **Configurações Globais**: Defina a taxa da plataforma (R$ 1,99 por checkout) e chave Pix recebedora.
 4.  **Auditoria Financeira**: Aprove solicitações de saque dos donos de bar.
 
 #### 🅱️ Visão Owner (Dono do Bar)
