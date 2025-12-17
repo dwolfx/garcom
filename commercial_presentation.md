@@ -18,7 +18,8 @@ Interface projetada para ambientes noturnos:
 1.  **Check-in Mágico**: QR Code na mesa abre a comanda instantaneamente.
 2.  **Comanda Inteligente**:
     *   Vê o que está bebendo em tempo real.
-    *   **Divisão Automatizada**: O app calcula sua parte do vinho ou balde.
+    *   **Divisão Automatizada**: O app calcula sua parte do vinho ou balde (ex: 1/3 da Pizza).
+    *   **Social**: Veja quem está na mesa com você em tempo real.
 3.  **Pagamento & Saída**:
     *   Paga via PIX/Cartão pelo app.
     *   **Taxa Flexível**: Escolha entre 8%, 10% ou 13% de serviço (calculada automaticamente).
