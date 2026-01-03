@@ -18,9 +18,11 @@ Interface projetada para ambientes noturnos:
 1.  **Check-in Mágico**: QR Code na mesa abre a comanda instantaneamente.
 2.  **Comanda Inteligente**:
     *   Vê o que está bebendo em tempo real.
-    *   **Divisão Automatizada & Auditável**: O app calcula sua parte (ex: 1/3 da Pizza) e mantêm o histórico do preço original para auditoria. Ninguém paga a mais.
-    *   **Redistribuição Dinâmica**: Esqueceu alguém? Altere a divisão a qualquer momento sem duplicar pedidos.
+    *   **Divisão Automatizada V3**: O app calcula sua parte (ex: 1/3 da Pizza) com precisão decimal, validando preços direto do banco de dados para segurança total.
+    *   **Split Resiliente**: O sistema mantém o rastreabilidade completa (quem pediu, quem dividiu, valor original).
     *   **Social**: Veja quem está na mesa com você em tempo real.
+    *   **Chamada de Garçom Discreta**: Solicita atendimento sem poluir a comanda fiscal ou o histórico de pagamentos.
+    *   **Experiência Premium**: Carregamento instantâneo (Skeleton UI), notificações de status do pedido em tempo real ("Seu Gin está pronto!") e sugestões de "Pedir Novamente" baseadas no seu gosto.
 3.  **Pagamento & Saída**:
     *   Paga via PIX/Cartão pelo app.
     *   **Taxa Flexível**: Escolha entre 8%, 10% ou 13% de serviço (calculada automaticamente).
@@ -100,5 +102,5 @@ Painel com **Dupla Visão** (Role-Based Access Control):
 ## 5. Tecnologia & Integração
 *   **PWA Ready**: Funciona no navegador sem downloads pesados.
 *   **React + Vite**: Performance instantânea.
-*   **Segurança**: Autenticação em 4 camadas (Cliente, Gerente, Garçom, Admin).
+*   **Segurança**: Autenticação em 4 camadas (Cliente, Gerente, Garçom, Admin). Remoção de logins inseguros e proteção contra spoofing em desenvolvimento.
 *   **LGPD Compliance**: Ferramentas de exclusão de dados nativas.
